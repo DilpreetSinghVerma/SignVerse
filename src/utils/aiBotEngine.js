@@ -205,15 +205,10 @@ const LOCAL_KNOWLEDGE_BASE = [
     action: { label: "View Progress Graphs", route: "/dashboard" }
   },
   {
-    keywords: ["sign to text", "camera sign", "gesture recognition", "webcam sign"],
-    response: `**Sign-to-Text** allows you to perform gestures in front of your camera, and our computer vision model detects words and builds spoken sentences in real time! 🤟📹`,
-    action: { label: "Try Sign to Text", route: "/sign-to-text" }
-  },
-  {
     keywords: ["pricing", "price", "subscription", "free trial", "credits", "plans", "cost"],
     response: `**SignVerse Pricing & Plans:** 💎
 - 🎁 **3-Day Free Trial**: 50 Free AI Credits + Full Core Access.
-- 🚀 **Pro Monthly ($5/mo)**: Unlimited 3D translations, 500 AI credits, all 5 avatars & camera sign-to-text.
+- 🚀 **Pro Monthly ($5/mo)**: Unlimited 3D translations, 500 AI credits & all 5 avatars.
 - 💰 **Pro Annual ($60/yr)**: Save 20%, unlimited everything & certificate.`,
     action: { label: "View Pricing Plans", route: "/pricing" }
   },

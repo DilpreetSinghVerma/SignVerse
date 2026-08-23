@@ -16,7 +16,7 @@ export default function About() {
             About SignVerse 3D Platform
           </h1>
           <p style={{ color: '#64748b', fontSize: '16.5px', maxWidth: '700px', margin: '0 auto', lineHeight: '1.6' }}>
-            Empowering inclusivity and breaking communication barriers through next-generation 3D sign language avatar technology and real-time camera gesture recognition.
+            Empowering inclusivity and breaking communication barriers through next-generation 3D sign language avatar technology.
           </p>
         </div>
 
@@ -48,9 +48,9 @@ export default function About() {
                 ⚡
               </div>
               <h3 style={{ color: '#0f172a', fontSize: '20px', fontWeight: '800', margin: '0 0 4px 0' }}>Dilpreet Singh</h3>
-              <p style={{ color: '#059669', fontSize: '13px', fontWeight: '800', margin: '0 0 12px 0' }}>AI, Computer Vision & Gesture Recognition Lead</p>
+              <p style={{ color: '#059669', fontSize: '13px', fontWeight: '800', margin: '0 0 12px 0' }}>AI, Natural Language & LLM Integrations Lead</p>
               <p style={{ color: '#64748b', fontSize: '13px', lineHeight: '1.6', margin: 0, flex: 1 }}>
-                Leads the real-time webcam Sign-to-Text camera recognition pipeline, gesture classification models, natural language synonym processing, and Groq/Gemini AI integrations.
+                Leads the real-time AI assistant chatbot engine, natural language synonym processing, and Groq/Gemini LLM cloud API integrations.
               </p>
             </div>
 
@@ -73,7 +73,7 @@ export default function About() {
         <div style={{ backgroundColor: '#e0f2fe', padding: '28px 32px', borderRadius: '16px', marginBottom: '32px', borderLeft: '5px solid #004080' }}>
           <h2 style={{ color: '#004080', fontSize: '20px', fontWeight: '800', margin: '0 0 8px 0' }}>💡 The Vision Behind SignVerse</h2>
           <p style={{ color: '#1e293b', fontSize: '15px', lineHeight: '1.7', margin: 0 }}>
-            Built for Hackathon 2026, SignVerse bridges the communication gap for deaf and hard-of-hearing communities. By combining rule-based text translation, real-time webcam gesture recognition, and responsive 3D WebGL avatars, we make sign language universally accessible, engaging, and cost-effective.
+            Built for Hackathon 2026, SignVerse bridges the communication gap for deaf and hard-of-hearing communities. By combining rule-based text translation, conversational AI assistants, and responsive 3D WebGL avatars, we make sign language universally accessible, engaging, and cost-effective.
           </p>
         </div>
 

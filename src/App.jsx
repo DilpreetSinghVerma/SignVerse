@@ -5,7 +5,6 @@ import Home from './pages/home';
 import Alphabets from './pages/alphabets';
 import Words from './pages/words';
 import Translate from './pages/translate';
-import SignToText from './pages/SignToText';
 import Practice from './pages/practice';
 import Quiz from './pages/quiz';
 import Dashboard from './pages/dashboard';
@@ -68,7 +67,6 @@ function NavigationBar({ isAuthenticated, handleLogout }) {
             <Link to="/alphabets" style={linkStyle('/alphabets')}>Alphabets</Link>
             <Link to="/words" style={linkStyle('/words')}>Words</Link>
             <Link to="/translate" style={linkStyle('/translate')}>3D Translate</Link>
-            <Link to="/sign-to-text" style={linkStyle('/sign-to-text')}>🤟 Sign to Text</Link>
             <Link to="/practice" style={linkStyle('/practice')}>Practice</Link>
             <Link to="/quiz" style={linkStyle('/quiz')}>Quiz</Link>
             <Link to="/dashboard" style={linkStyle('/dashboard')}>Dashboard</Link>
@@ -137,7 +135,6 @@ export default function App() {
             <Route path="/alphabets" element={<ProtectedRoute isAuthenticated={isAuthenticated}><Alphabets /></ProtectedRoute>} />
             <Route path="/words" element={<ProtectedRoute isAuthenticated={isAuthenticated}><Words /></ProtectedRoute>} />
             <Route path="/translate" element={<ProtectedRoute isAuthenticated={isAuthenticated}><Translate /></ProtectedRoute>} />
-            <Route path="/sign-to-text" element={<ProtectedRoute isAuthenticated={isAuthenticated}><SignToText /></ProtectedRoute>} />
             <Route path="/practice" element={<ProtectedRoute isAuthenticated={isAuthenticated}><Practice /></ProtectedRoute>} />
             <Route path="/quiz" element={<ProtectedRoute isAuthenticated={isAuthenticated}><Quiz /></ProtectedRoute>} />
             <Route path="/dashboard" element={<ProtectedRoute isAuthenticated={isAuthenticated}><Dashboard /></ProtectedRoute>} />

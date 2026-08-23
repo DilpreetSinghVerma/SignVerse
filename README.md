@@ -176,7 +176,6 @@ The recommended platform for deploying SignVerse is **Vercel** for instant edge 
 
 - [x] **3D Sign Avatar Synthesis**: Zero-latency avatar rendering with SiGML XML notation.
 - [x] **NLP Text-to-Sign & Voice-to-Sign**: Natural speech and text input with synonym expansion & fingerspelling fallback.
-- [x] **Sign-to-Text Camera Recognition**: Real-time webcam gesture classification and sentence builder.
 - [x] **24/7 SignBot AI Assistant**: Groq & Gemini powered multimodal chatbot guide with voice output.
 - [x] **Interactive Learning Arena**: Timed quizzes, flashcard practice, and comprehensive A-Z / word dictionaries.
 - [x] **Gamification & Analytics**: Daily streak tracking, accuracy graphs, mastery ranks, and 3-day trial credit manager.
